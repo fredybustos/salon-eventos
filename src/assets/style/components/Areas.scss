@@ -1,0 +1,148 @@
+.title_section{
+  font-family: 'Viga', sans-serif;
+  margin: 40px 10px;
+  border-bottom:  1px solid #ccc;
+  h1{
+    
+  }
+}
+.container_areas{
+  font-family: 'Viga', sans-serif;
+  background:  #c1d2ce;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  .areas{
+    width: 30%;
+    margin:10px 20px;
+    position: relative;
+    top: 0;
+    transition: all 1s ease;
+  }
+ 
+  .areas_info{
+    position: absolute;
+    padding: 10px;
+    background: white;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    h2{
+      padding: 10px;
+    }
+    p{
+      padding: 5px;
+      color: #444;
+      
+    }
+    border-radius: 5px;
+
+  }
+  .areas_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+    img{
+      width: 100%;
+      height: 300px;
+      border-radius: 5px 5px 0 0;
+
+    }
+    
+    
+  }
+  .span{
+    background: #ccc;
+    position: absolute;
+    width: 10%;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    z-index: 1000;
+    bottom: 10%;
+    left: 45%;
+    animation: salto 3s ease infinite;
+  }
+  
+  .cambiar{
+    top: -80px;
+    
+  }
+  .alargar{
+    top: 95%;
+    box-shadow: 1px 1px 20px #333;
+   }
+   .container_icon-whatsaap{
+
+    .whatsaap{
+      background: white;
+      border-radius: 50%;
+      padding: 5px;
+      position: fixed;
+      bottom: 5%;
+      right:2%;
+      z-index: 2000;
+      opacity: .5;
+      box-shadow: 2px 2px 20px #555;
+    }  
+  }
+   
+}
+
+
+
+@keyframes salto{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px){
+  .container_areas{
+    flex-direction: column;
+    height: 100%;
+    .areas{
+      position: relative;
+      width: 90%;
+      top: 0;
+      p{
+        font-size: 10px;
+      }
+      .span{
+          bottom: 45%;
+          left: 40%;
+      }
+      .areas_img{
+        width: 100%;
+        transition: all 1s ease;
+      }
+      .areas_info{
+        width: 45%;
+        height: 92%;
+      }
+      .alargar{
+        left: 48%;
+        top: 0;
+        box-shadow: 1px 1px 20px #333;
+       }
+       .cambiar_responsive{
+         width: 50%;
+       }
+    }
+    
+
+  }
+}
