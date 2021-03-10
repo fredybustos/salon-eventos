@@ -36,6 +36,8 @@
     p{
       padding: 5px;
       color: #444;
+      letter-spacing: 2px;
+      line-height: 1rem;
       
     }
     border-radius: 5px;
@@ -123,7 +125,7 @@
       }
       .span{
           bottom: 45%;
-          left: 40%;
+          left: 46%;
       }
       .areas_img{
         width: 100%;
@@ -132,6 +134,10 @@
       .areas_info{
         width: 45%;
         height: 92%;
+        p{
+          padding: 10px 20px;
+
+        }
       }
       .alargar{
         left: 48%;
@@ -145,4 +151,48 @@
     
 
   }
+}
+
+@media (min-width: 501px) and (max-width: 576px){
+  .container_areas{
+    flex-direction: column;
+    height: 100%;
+    .areas{
+      position: relative;
+      width: 90%;
+      top: 0;
+      p{
+        font-size: 10px;
+      }
+      .span{
+          bottom: 45%;
+          left: 46%;
+      }
+     
+      .areas_img{
+        width: 100%;
+        transition: all 1s ease;
+      }
+      .areas_info{
+        width: 45%;
+        height: 92%;
+        p{
+          padding: 10px 20px;
+          
+        }
+      }
+      .alargar{
+        left: 48%;
+        top: 0;
+        box-shadow: 1px 1px 20px #333;
+       }
+       .cambiar_responsive{
+         width: 50%;
+       }
+       
+    }
+
+  }
+ 
+  
 }

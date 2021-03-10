@@ -54,7 +54,14 @@
         }
           
       }
+      
      
+    }
+    .redes:hover{
+      border-radius: 50%;
+      background: #c1d2ce;
+      box-shadow: inset 9px 9px 12px #8b9794,
+            inset -9px -9px 12px #f7ffff;
     }
     
   }
@@ -77,6 +84,24 @@
 
 
 @media (min-width: 200px) and (max-width: 500px){
+  .container_footer{
+  
+    .container_redes{
+      
+      .container-icon{
+       
+      }
+    }
+    .container_soporte{
+      a{
+        font-size: 12px;
+        display: flex;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+@media (min-width: 501px) and (max-width: 576px){
   .container_footer{
 
     .container_soporte{

@@ -34,6 +34,13 @@
   .vista_estrellas{
     display: flex;
     margin-bottom: 10px;
+    .star{
+      margin:  10px 10px;
+      border-radius: 50%;
+      background: linear-gradient(145deg, #aebdb9, #cfe1dc);
+      box-shadow:  9px 9px 12px #8b9794,
+                   -9px -9px 12px #f7ffff;
+    }
   }
   .vista_comentarios-hechos{
     overflow-y: scroll;
@@ -47,6 +54,20 @@
       
       .clasificacion_general{
         display: flex;
+        .star{
+          margin: 10px ;
+          border-radius: 50%;
+          background: linear-gradient(145deg, #cfe1dc, #aebdb9);
+          box-shadow:  9px 9px 12px #8b9794,
+                     -9px -9px 12px #f7ffff;
+        }
+        .star:hover{
+          border-radius: 50%;
+background: #c1d2ce;
+box-shadow: inset 9px 9px 12px #8b9794,
+            inset -9px -9px 12px #f7ffff;
+        }
+        
       }
       .form_comentario{
         box-shadow: 2px 4px 20px black;
@@ -171,8 +192,28 @@
     }
     
   }
-  
-  
-  
-  
+}
+@media (min-width: 501px) and (max-width: 576px){
+  .container_comentarios-vista{
+    
+    .vista_estrellas{
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .vista_comentarios-hechos{
+      .crear_comentario{
+
+        .form_comentario{
+          width:80%;
+          
+          form{
+            width: 90%;
+          }
+        }
+        .aparicion_form{
+          left: 10%;
+        }
+      }
+    }    
+  }
 }

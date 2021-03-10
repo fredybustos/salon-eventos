@@ -87,3 +87,26 @@
     }
   }
 }
+@media (min-width: 501px) and (max-width: 576px){
+  .container_eventos{
+    height: 100%;
+    .eventos_card{
+      flex-wrap: wrap;
+      .card{
+        width: 40%;
+        .card_container-img{
+          img{
+            height: 200px;
+          }
+        }
+        .card_container-data{
+          font-size: 12px;
+          height: 100%;
+          p{
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
