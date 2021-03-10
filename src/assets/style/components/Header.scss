@@ -78,9 +78,27 @@ body{
   
 }
 
-@media (min-width: 200px) and (max-width: 500px){
+@media (min-width: 200px) and (max-width: 480px){
   .header{
+      height: 90vh;
+    .container_info{
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      width: 100%;
+      justify-content: center;
+      p{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
 
+
+@media (min-width: 481px) and (max-width: 576px){
+  .header{
+      height: 90vh;
     .container_info{
       font-size: 10px;
       display: flex;

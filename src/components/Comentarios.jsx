@@ -223,3 +223,7 @@ export const Comentarios = () => {
     </div>
   )
 }
+
+
+
+//576 768
