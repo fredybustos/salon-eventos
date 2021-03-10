@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/salon-eventos/static/css/main.6e96501c.chunk.css",
+    "main.css": "/salon-eventos/static/css/main.b5fa8341.chunk.css",
     "main.js": "/salon-eventos/static/js/main.83b004aa.chunk.js",
     "main.js.map": "/salon-eventos/static/js/main.83b004aa.chunk.js.map",
     "runtime-main.js": "/salon-eventos/static/js/runtime-main.859de009.js",
@@ -8,7 +8,7 @@
     "static/js/2.8ac693b1.chunk.js": "/salon-eventos/static/js/2.8ac693b1.chunk.js",
     "static/js/2.8ac693b1.chunk.js.map": "/salon-eventos/static/js/2.8ac693b1.chunk.js.map",
     "index.html": "/salon-eventos/index.html",
-    "static/css/main.6e96501c.chunk.css.map": "/salon-eventos/static/css/main.6e96501c.chunk.css.map",
+    "static/css/main.b5fa8341.chunk.css.map": "/salon-eventos/static/css/main.b5fa8341.chunk.css.map",
     "static/js/2.8ac693b1.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.8ac693b1.chunk.js.LICENSE.txt",
     "static/media/campestre.aed0bea7.jpg": "/salon-eventos/static/media/campestre.aed0bea7.jpg",
     "static/media/capilla.0d7266b2.jpg": "/salon-eventos/static/media/capilla.0d7266b2.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.859de009.js",
     "static/js/2.8ac693b1.chunk.js",
-    "static/css/main.6e96501c.chunk.css",
+    "static/css/main.b5fa8341.chunk.css",
     "static/js/main.83b004aa.chunk.js"
   ]
 }
