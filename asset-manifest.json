@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/salon-eventos/static/css/main.3fb12c7b.chunk.css",
+    "main.js": "/salon-eventos/static/js/main.51d92671.chunk.js",
+    "main.js.map": "/salon-eventos/static/js/main.51d92671.chunk.js.map",
+    "runtime-main.js": "/salon-eventos/static/js/runtime-main.859de009.js",
+    "runtime-main.js.map": "/salon-eventos/static/js/runtime-main.859de009.js.map",
+    "static/js/2.8ac693b1.chunk.js": "/salon-eventos/static/js/2.8ac693b1.chunk.js",
+    "static/js/2.8ac693b1.chunk.js.map": "/salon-eventos/static/js/2.8ac693b1.chunk.js.map",
+    "index.html": "/salon-eventos/index.html",
+    "static/css/main.3fb12c7b.chunk.css.map": "/salon-eventos/static/css/main.3fb12c7b.chunk.css.map",
+    "static/js/2.8ac693b1.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.8ac693b1.chunk.js.LICENSE.txt",
+    "static/media/campestre.aed0bea7.jpg": "/salon-eventos/static/media/campestre.aed0bea7.jpg",
+    "static/media/capilla.0d7266b2.jpg": "/salon-eventos/static/media/capilla.0d7266b2.jpg",
+    "static/media/cumpleaños.40a9409c.jpg": "/salon-eventos/static/media/cumpleaños.40a9409c.jpg",
+    "static/media/despedida.fdd0bd13.jpg": "/salon-eventos/static/media/despedida.fdd0bd13.jpg",
+    "static/media/infantil.925b983f.jpg": "/salon-eventos/static/media/infantil.925b983f.jpg",
+    "static/media/matrimonio.b7c03eaf.jpg": "/salon-eventos/static/media/matrimonio.b7c03eaf.jpg",
+    "static/media/App.scss": "/salon-eventos/static/media/salon.b2998992.jpg",
+    "static/media/salonprincipal.07f565fd.jpg": "/salon-eventos/static/media/salonprincipal.07f565fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.859de009.js",
+    "static/js/2.8ac693b1.chunk.js",
+    "static/css/main.3fb12c7b.chunk.css",
+    "static/js/main.51d92671.chunk.js"
+  ]
+}
