@@ -54,8 +54,25 @@
       
       .clasificacion_general{
         display: flex;
+<<<<<<< HEAD
         
         .star{}
+=======
+        .star{
+          margin: 10px ;
+          border-radius: 50%;
+          background: linear-gradient(145deg, #cfe1dc, #aebdb9);
+          box-shadow:  9px 9px 12px #8b9794,
+                     -9px -9px 12px #f7ffff;
+        }
+        .star:hover{
+          border-radius: 50%;
+background: #c1d2ce;
+box-shadow: inset 9px 9px 12px #8b9794,
+            inset -9px -9px 12px #f7ffff;
+        }
+        
+>>>>>>> 64a37969b3ac44f07c43a3ae92b6b3c3597adb91
       }
       .form_comentario{
         box-shadow: 2px 4px 20px black;
