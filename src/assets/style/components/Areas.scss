@@ -130,10 +130,14 @@
       .areas_img{
         width: 100%;
         transition: all 1s ease;
+        border-radius: 5px;
+        img{
+          border-radius: 5px;
+        }
       }
       .areas_info{
         width: 45%;
-        height: 92%;
+        height: 91%;
         p{
           padding: 5px 20px;
 

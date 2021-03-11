@@ -32,7 +32,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="redes">
+          <div id='redes_sociales' className="redes">
             <div className="container-icon">
               <a target='blanck' href="https://youtube.com">
                <Icon className='youtube'  size={'20px'} icon={ mdiYoutube } />
