@@ -157,11 +157,12 @@ export const Comentarios = () => {
   }
   return (
     <div>
+      
+
+      <div className="container_comentarios-vista">
       <div className="container_comentarios-title">
         <h2>Comentarios</h2>
       </div>
-
-      <div className="container_comentarios-vista">
         <div className="vista_principal">
           <h3>Calificación general</h3>
           <div className="vista_estrellas">

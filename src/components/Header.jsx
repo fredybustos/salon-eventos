@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { mdiArrowDownBox, mdiMicrosoftXboxControllerMenu } from '@mdi/js';
 import Icon from './Iconos';
+import img_principal from '../assets/static/imagen28.jpg';
+
+
 export const Header = () => {
   const [burguerActive, setBurguerActive] = useState(false);
   const [scroll, setScroll] = useState(0);
 
   const handleClick= () => {
     window.scroll({
-      top: 700,
-      left: 100,
+      top: 660,
       behavior: 'smooth'
     });
   }
@@ -22,7 +24,7 @@ export const Header = () => {
   return (
     <div>
       <header className='header'>
-        <nav className={ scroll > 666 ? 'cambio_nav' : ''}>
+        <nav className= ''>
         <div className="container_burguer">
           <Icon onClick={ clickBurguer} className='burguer' color={'#fff'} size={'40px'} icon={mdiMicrosoftXboxControllerMenu} />
         </div>
@@ -33,13 +35,18 @@ export const Header = () => {
             <a href="#redes_sociales">Siguenos en Redes</a>
           </ul>
         </nav>
-        <div className="container_info">
-          <h1>SALON DE EVENTOS <br />CASA BC </h1>
-          <p  >Todos disfrutaran  de una <br/>  experiencia inolvidable, te <b/>
-          sentiras  <br/> en familia.
-          </p>
-          <Icon color={'#444'} size={'50px'} onClick={handleClick} className='bajar' icon={ mdiArrowDownBox } />
-            
+        <div className="component_info">
+          <div className="container_info">
+            <h1>SALON DE EVENTOS <br />CASA BC </h1>
+            <p  >Todos  disfrutaran  de una <br/>  experiencia inolvidable, te <b/>
+            sentiras  <br/> en familia.
+            </p>
+            <Icon color={'#ce4257'} size={'50px'} onClick={handleClick} className='bajar' icon={ mdiArrowDownBox } />
+          </div>
+
+          <figure className='container_img-principal'>
+            <img src={ img_principal } alt='imagen_principal'/>
+          </figure>
         </div>
       </header>
     </div>

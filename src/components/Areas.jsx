@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import logosalon from '../assets/static/salonprincipal.jpg';
-import logoCapilla from '../assets/static/capilla.jpg';
-import logoCampestre from '../assets/static/campestre.jpg';
+import logoCasa from '../assets/static/imagen18.jpg';
+import logoHome from '../assets/static/imagen19.jpg';
+import logoCook from '../assets/static/imagen26.jpg';
+import logoCap from '../assets/static/imagen29.jpeg';
+import logoParty from '../assets/static/imagen1.jpg';
+import logoPar from '../assets/static/imagen17.jpg';
+
 import Icon from './Iconos';
 import { mdiArrowDownDropCircle, mdiArrowUpDropCircle,  mdiWhatsapp } from '@mdi/js';
 
@@ -33,12 +37,6 @@ export const Areas = () => {
       <section className='container_areas'>
         <div className={ active1 ? 'areas cambiar': 'areas'}>
 
-        <div className={active1 ? 'areas_img cambiar_responsive': 'areas_img'}>
-            <img src={logosalon}  alt=''/>
-          </div>
-          <Icon color={'#444'} onClick={handleClick} className='span' icon={ active1 ? mdiArrowUpDropCircle : mdiArrowDownDropCircle} />
-            
-
           <div className={ active1 ? 'areas_info alargar': 'areas_info'}>
             <h2>Salon principal</h2>
             <p>Contamos con un salon adaptado para albergar hasta
@@ -46,15 +44,18 @@ export const Areas = () => {
               donde se instalaran musicos o Dj si se desea contar con alguno de ellos.
             </p>
           </div>
+
+          <div className='areas_img' >
+            <img className='img-house' src={logoCasa}  alt=''/>
+            <img className='img-home' src={logoHome}  alt=''/>
+          </div>
         </div>
 
         <div className={ active2 ? 'areas cambiar': 'areas'}>
           <div className={active2 ? 'areas_img cambiar_responsive': 'areas_img'}>
-            <img src={logoCapilla}  alt=''/>
+            <img className='img-cook' src={logoCook}  alt=''/>
+            <img className='img-cap' src={logoCap}  alt=''/>
           </div>
-          
-          <Icon color={'#444'} onClick={handleClick2} className='span' icon={active2 ? mdiArrowUpDropCircle : mdiArrowDownDropCircle} />
-          
 
           <div className={ active2 ? 'areas_info alargar': 'areas_info'}>
             <h2>Capilla</h2>
@@ -63,16 +64,10 @@ export const Areas = () => {
               comuniones etc.. .
             </p>
           </div>
-
+          
         </div>
 
         <div className={ active3 ? 'areas cambiar': 'areas'}>
-          <div className={active3 ? 'areas_img cambiar_responsive': 'areas_img'}>
-            <img src={logoCampestre}  alt=''/>
-          </div>
-
-          <Icon color={'#444'} onClick={handleClick3} className='span' icon={active3 ? mdiArrowUpDropCircle : mdiArrowDownDropCircle} />
-          
 
           <div className={ active3 ? 'areas_info alargar': 'areas_info'}>
             <h2>Zona campestre</h2>
@@ -81,6 +76,11 @@ export const Areas = () => {
               ocupar durante tu evento si asi lo deseas, lo ideal es que tengas una 
               experiencia inolvidable.
             </p>
+          </div>
+
+          <div className={active3 ? 'areas_img cambiar_responsive': 'areas_img'}>
+            <img className='img-party' src={logoParty}  alt=''/>
+            <img className='img-par' src={logoPar}  alt=''/>
           </div>
         </div>
         

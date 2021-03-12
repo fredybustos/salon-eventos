@@ -1,7 +1,7 @@
 .container_comentarios-title{
   margin: 20px 10px;
   font-family: 'Viga', sans-serif;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #f8edeb;
   h2{
     
   }
@@ -10,24 +10,24 @@
   margin: 10px 10px ;
   font-family: 'Viga', sans-serif;
   padding: 10px;
+  background-color: #ce4257;
+  color: white;
   border-radius: 5px;
-  box-shadow: 2px 4px 10px black;
+  box-shadow: 2px 4px 10px #ac2135;
   border: none;
   outline: none;
-  background: #c1d2ce;
   transition: all .1s linear;
   position: relative;
 
 }
 .button_crear:hover{
   font-size: 12px;
-  box-shadow: 1px 1px 4px black;
+  box-shadow: 1px 1px 4px #ac2135;
 }
 .container_comentarios-vista{
   position: relative;
   padding: 20px;
   font-family: 'Viga', sans-serif;
-  background: #c1d2ce;
   h3{
     
   }
@@ -37,18 +37,16 @@
     .star{
       margin:  10px 10px;
       border-radius: 50%;
-      background: linear-gradient(145deg, #aebdb9, #cfe1dc);
-      box-shadow:  9px 9px 12px #8b9794,
-                   -9px -9px 12px #f7ffff;
+      
     }
   }
   .vista_comentarios-hechos{
     overflow-y: scroll;
     height: 200px;
     border-radius: 5px;
-    background: #c1d2ce;
-    box-shadow: inset 9px 9px 12px #8b9794,
-            inset -9px -9px 12px #f7ffff;
+    background: #fec5bb;
+    box-shadow: inset 9px 9px 12px #f08080,
+            inset -9px -9px 12px #ffe5d9;
     padding: 10px;
     .crear_comentario{
       
@@ -58,10 +56,10 @@
         .star{}
       }
       .form_comentario{
-        box-shadow: 2px 4px 20px black;
+        box-shadow: 2px 4px 20px #ce4257;
         transition: all 1s ease;
         position: absolute;
-        border: .5px solid gray;
+        border: .5px solid #ac2135;
         border-radius: 5px;
         z-index: 1000;
         top: -100px;
@@ -69,12 +67,14 @@
         font-family: 'Viga', sans-serif;
         width: 40%;
         height: 450px;
-        background: #c1d2ce;
+        background: #f8ad9d;
+        
+        
         .exit{
           position: absolute;
           right: 10px;
           border-radius: 50%;
-          background: #c1d2ce;
+          background: #ce4257;
           box-shadow:  9px 9px 12px #8b9794,
           -9px -9px 12px #f7ffff;
           transition: all .3s linear;
@@ -91,6 +91,7 @@
           label{
           margin-top: 10px;
           
+          
           }
           h2{
             margin-top: 20px;
@@ -104,6 +105,9 @@
             border: none;
             outline: none;
             height: 30px;
+            background: #fec5bb;
+            color: white;
+            padding: 0 10px;
           }
 
           textarea{
@@ -112,19 +116,23 @@
             height: 50px; 
             margin-top: 10px;
             border-radius: 5px;
-            background: #c1d2ce;
+            background: #fec5bb;
+            padding: 0 10px;
+
+            color: white;
             box-shadow: inset 9px 9px 12px #8b9794,
             inset -9px -9px 12px #f7ffff;
 
           }
           button{
+            color: white;
             margin: 20px auto;
             width: 50%;
             font-family: 'Viga', sans-serif;
             padding: 10px;
             border-radius: 5px;   
-            background: #c1d2ce;
-            box-shadow: 9px 9px 12px #8b9794,
+            background: #ce4257;
+            box-shadow: 9px 9px 12px #ac2135,
                         -9px -9px 12px #f7ffff;
             border: none;
             outline: none;
