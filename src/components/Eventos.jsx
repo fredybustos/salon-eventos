@@ -23,57 +23,150 @@ export const Eventos = () => {
 
         <div className="container_banners">
           <div>
-            <figure>
-              <img src={logoimg1} alt=""/>
-            </figure>
+            <div className="banner">
+              <figure>
+                <img src={logoimg1} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg2} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
 
-            <figure>
-              <img src={logoimg3} alt=""/>
-            </figure>
+            <div className="banner">
+              <figure>
+                <img src={logoimg2} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg4} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg3} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg4} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
           </div>
 
           <div>
-            <figure>
-              <img src={logoimg5} alt=""/>
-            </figure>
+          
+          <div>
+            <div className="banner">
+              <figure>
+                <img src={logoimg5} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg6} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
 
-            <figure>
-              <img src={logoimg7} alt=""/>
-            </figure>
+            <div className="banner">
+              <figure>
+                <img src={logoimg6} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg8} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg7} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg8} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+
+
           </div>
 
           <div>
-            <figure>
-              <img src={logoimg9} alt=""/>
-            </figure>
+          
+          <div>
+            <div className="banner">
+              <figure>
+                <img src={logoimg9} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg10} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
 
-            <figure>
-              <img src={logoimg11} alt=""/>
-            </figure>
+            <div className="banner">
+              <figure>
+                <img src={logoimg10} alt=""/>
+              </figure>
 
-            <figure>
-              <img src={logoimg12} alt=""/>
-            </figure>
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg11} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+
+            <div className="banner">
+              <figure>
+                <img src={logoimg12} alt=""/>
+              </figure>
+
+              <div className="banner-text">
+                <h3>title</h3>
+                <p>text lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+
           </div>
         </div>
         

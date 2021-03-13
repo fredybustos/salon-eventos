@@ -38,10 +38,11 @@ export const Areas = () => {
         <div className={ active1 ? 'areas cambiar': 'areas'}>
 
           <div className={ active1 ? 'areas_info alargar': 'areas_info'}>
-            <h2>Salon principal</h2>
-            <p>Contamos con un salon adaptado para albergar hasta
-              500 personas, el cual cuenta con tarima, pista de baile y un balcon
-              donde se instalaran musicos o Dj si se desea contar con alguno de ellos.
+            <h2>!Como en casa¡</h2>
+            <p>Contamos con un salones adaptado para albergar hasta
+              500 personas, amoblados para que te sientas como si nunca
+              huberas salido de casa, la unica diferencia es que hoy nosotros
+              te atenderemos.
             </p>
           </div>
 
@@ -58,10 +59,10 @@ export const Areas = () => {
           </div>
 
           <div className={ active2 ? 'areas_info alargar': 'areas_info'}>
-            <h2>Capilla</h2>
-            <p>Contamos con una capilla acoplada para celebrar cualquier tipo de 
-              evento religioso, ya sea tu matrimonio, el bautizo de tu hijo primeras 
-              comuniones etc.. .
+            <h2>!Lo mejor pasteleria¡</h2>
+            <p>Contamos con una cantidad de profesionales que haran muy feliz tu paladar
+              disgustando toda clase de postres,  ademas tu eliges el diseño de tu ponque
+              nosotros lo fabricaremos tal cual como deseas.
             </p>
           </div>
           
@@ -70,11 +71,11 @@ export const Areas = () => {
         <div className={ active3 ? 'areas cambiar': 'areas'}>
 
           <div className={ active3 ? 'areas_info alargar': 'areas_info'}>
-            <h2>Zona campestre</h2>
+            <h2>!Party¡</h2>
             <p>
-              Nuestra zona campestre es una de las areas mas grandes para que tu la puedas
-              ocupar durante tu evento si asi lo deseas, lo ideal es que tengas una 
-              experiencia inolvidable.
+              Si te gusta las fiestas y deseas una llegaste al lugar indicado.
+              Nostros te hacemos vivir una gran experiencia no habra diferencia entre
+              IBIZA y nosotros.
             </p>
           </div>
 
