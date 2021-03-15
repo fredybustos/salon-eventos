@@ -76,10 +76,10 @@ export const Eventos = () => {
                 <img src={logoimg5} alt=""/>
               </figure>
 
-              <div className="banner-text">
+              <span className="banner-text">
                 <h3>title</h3>
                 <p>text lorem ipsum</p>
-              </div>
+              </span>
             </div>
 
             <div className="banner">
@@ -87,10 +87,10 @@ export const Eventos = () => {
                 <img src={logoimg6} alt=""/>
               </figure>
 
-              <div className="banner-text">
+              <span className="banner-text">
                 <h3>title</h3>
                 <p>text lorem ipsum</p>
-              </div>
+              </span>
             </div>
 
             <div className="banner">

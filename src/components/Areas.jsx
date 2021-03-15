@@ -7,28 +7,13 @@ import logoParty from '../assets/static/imagen1.jpg';
 import logoPar from '../assets/static/imagen17.jpg';
 
 import Icon from './Iconos';
-import { mdiArrowDownDropCircle, mdiArrowUpDropCircle,  mdiWhatsapp } from '@mdi/js';
+import { mdiWhatsapp } from '@mdi/js';
 
 export const Areas = () => {
-  const [active1, setActive1] = useState(false);
-  const [active2, setActive2] = useState(false);
-  const [active3, setActive3] = useState(false)
-  const handleClick = () => {
-    setActive1( !active1)
-    setActive2(false);
-    setActive3(false)
-  }
-  const handleClick2 = () => {
-    setActive2( !active2)
-    setActive1(false);
-    setActive3(false);
-  }
+  const [active1] = useState(false);
+  const [active2] = useState(false);
+  const [active3] = useState(false)
 
-  const handleClick3 = () => {
-    setActive3( !active3)
-    setActive1(false);
-    setActive2(false);
-  }
   return (
     <div>
       <div className="title_section">

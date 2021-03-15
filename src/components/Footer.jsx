@@ -43,9 +43,9 @@ export const Footer = () => {
 
         <div className="container_soporte">
           <div className="soporte">
-            <a href="">Sobre Nosotros</a>
-            <a href="">Servicio Al Cliente</a>
-            <a href="">Terminos y Condiciones</a>
+            <a href="http">Sobre Nosotros</a>
+            <a href="http">Servicio Al Cliente</a>
+            <a href="http">Terminos y Condiciones</a>
           </div>
         </div>
 
